@@ -1,2 +1,9 @@
-# openapi-ci-gate-starter
-Ready-to-use GitHub Actions starter template for OpenAPI 3.x Breaking-Change Gating, SemVer Calculation &amp; SOC 2 Change Management
+# OpenAPI CI/CD Breaking-Change Gate — GitHub Actions Starter Template
+
+[![SpecGate Status](https://specgate.profalexandrezamboni.workers.dev/api/v1/badge.svg?verdict=PASS&bump=MINOR)](https://specgate.profalexandrezamboni.workers.dev)
+
+Clone or use this template to block unannounced breaking OpenAPI 3.x changes in Pull Requests, calculate exact Semantic Versioning (`MAJOR`, `MINOR`, `PATCH`) bumps, and generate cryptographic **SOC 2 CC8.1 Change Management** evidence in under 60 seconds.
+
+- **Try the Live Browser Playground & ROI Calculator:** [https://specgate.profalexandrezamboni.workers.dev](https://specgate.profalexandrezamboni.workers.dev)
+- **Compare openapi-diff vs. oasdiff vs. Optic vs. SpecGate:** [https://specgate.profalexandrezamboni.workers.dev/compare/openapi-diff-vs-oasdiff-vs-optic](https://specgate.profalexandrezamboni.workers.dev/compare/openapi-diff-vs-oasdiff-vs-optic)
+- **Install SpecGate GitHub Action:** [`https://github.com/profalexandrezamboni-ui/specgate-action`](https://github.com/profalexandrezamboni-ui/specgate-action)
